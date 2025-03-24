@@ -137,17 +137,47 @@
         <div class="section-content">
             <center>
             <h2>Resume</h2>
+             <a href="https://drive.google.com/file/d/1HCyu6Rl4Ey4mmslljyIjOC78JcDf_Fcm/view?usp=drivesdk" target="_blank" class="download-button">Download CV</a>
+    <footer>
+        <p>&copy; 2025 Ramya.M</p>
+    </footer>
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });   
+        </script>" target="_blank" class="download-button">Download CV</a>
+    <footer>
+        <p>&copy; 2025 Ramya.M</p>
+    </footer>
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });   
+        </script>center>
+            <h2>Resume</h2>
              <a href="<html>
-<head>
-    <title>Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #84a6e9;
-        }
-        header {
             background-color: #941919;
             color: #fff;
             text-align: center;
@@ -216,22 +246,6 @@
            padding-left: 20px;
         }
     </style>
-</head>
-<body>
-    <header>
-        <div class="header-content">     
-<img src="https://i.postimg.cc/RZXNBfbh/IMG-20250317-WA0016.jpg" alt="Your Profile Picture" class="profile-picture">
-                     <h1>Ramya .M</h1>
-                    <p>Am Computer Engineer</p>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
         </ul>
     </nav>
     <section id="about">
@@ -265,9 +279,7 @@
             <h2>Projects</h2>
             <ul>
                 <li><a href="#">Design  using Html and CSS</a></li>
-                <li><a href="#">Quiz page  using Html</a></li>
-                <li><a href="#">Web canvas using  CSS</a></li>
-                <li><a href="#">Digital Portfolio using HTML</a></li> 
+                <li><a h
                 <!-- Add more project links here -->
             </ul>
         </div>
